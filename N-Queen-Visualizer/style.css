@@ -85,51 +85,6 @@ body{
     color: #fa7921;
   }
 
-  /* .inputbox input:focus ~ label,
-  .inputbox input:disabled ~ label,
-  .inputbox input:valid ~ label {
-    top: -9px;
-    font-size: 12px;
-    font-weight: 400;
-  }
-
-
-  /* Google chrome 
-.slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  width: 20px;
-  height: 20px;
-  position: relative;
-  top: -2px;
-  cursor: pointer;
-  background-color: #fa7921;
-  border-radius: 50%;
-  z-index: 2;
-}
-
-.slider::-webkit-slider-runnable-track {
-  -webkit-appearance: none;
-  height: 15px;
-  width: 15px;
-  z-index: 1;
-  color: #ffba08;
-}
-
-/* Mozilla firefox 
-.slider::-moz-range-thumb {
-  width: 20px;
-  height: 20px;
-  background-color: #fa7921;
-  cursor: pointer;
-  position: relative;
-  top: -2px;
-  border-radius: 50%;
-  z-index: 2;
-}
-
-.slider::-webkit-slider-thumb:hover {
-  box-shadow: 0 0 0 2px white, 0 0 0 4px #fa7921;
-} */
 
 #progress-bar {
   width: 60%;
