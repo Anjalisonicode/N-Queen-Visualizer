@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><N-Queen-Visualizer></title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h2>N-Queen-Visualizer <i class="fas fa-crown" style="color: #fdfffc"></i></h2>
+        
+    </header>
+
+    <div class="nQueen">
+
+        <div class="inputBox">
+            <label>Enter total Queens : </label>
+            <input type="number" class="numberBox" id="numberbox" required/>
+           
+
+        </div>
+
+        <div class="sliderContainer">
+            <input  type="range"  class="slider" id="slider" min="0" max="100" value="60"/>
+            <div id="Progress-Bar"></div>
+        </div>
+
+       
+         <button class="play-button" id="play-button"><i class="fa fa-play" aria-hidden="true"></i>Start Arranging</button>
+        </div>
+    
+
+    <div class="queen-arrangemet" id="queen-arrangemet"></div>
+    <div id="queen-board"></div>
+    <script src="app.js"></script>
+    
+</body>
+</html>
